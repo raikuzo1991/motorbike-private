@@ -1832,7 +1832,7 @@ body {
 #userInfo {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 80px;
     margin: 0;
     padding: 0 10px;
     color: #1e1e1e;
@@ -1843,7 +1843,7 @@ body {
 #authArea {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 80px;
 }
 
 #authArea button {

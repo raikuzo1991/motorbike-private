@@ -1829,16 +1829,29 @@ body {
 
 /* Login & User Navbar */
 
+#userInfo {
+    display: inline-block;
+    color: #1e1e1e;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100px;
+    margin-right: 15px;
+}
+
+#authArea {
+    display: inline-block;
+}
+
 #authArea button {
     background: #1e1e1e !important;
     color: white !important;
     border: none !important;
     border-radius: 20px !important;
-    padding: 10px 20px !important;
-    cursor: pointer !important;
-    font-size: 14px !important;
+    padding: 0 20px !important;
     height: 40px !important;
-    margin-top: 18px !important;
+    line-height: 40px !important;
+    cursor: pointer;
+    margin-top: 30px !important;
 }
 
 #authArea button:hover {

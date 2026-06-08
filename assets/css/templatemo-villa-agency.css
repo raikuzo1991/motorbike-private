@@ -1826,3 +1826,36 @@ body {
     margin-right: 100px;
   }
 }
+
+/* Login & User Navbar */
+
+#authArea {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#authArea .nav-cta {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#authArea .nav-cta:hover {
+    background-color: #f35525;
+}
+
+#userInfo {
+    display: block;
+    line-height: 40px;
+    margin-top: 30px;
+    color: #1e1e1e;
+    font-size: 15px;
+    font-weight: 500;

@@ -1830,16 +1830,20 @@ body {
 /* Login & User Navbar */
 
 #userInfo {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    padding: 0 10px;
     color: #1e1e1e;
     font-size: 15px;
     font-weight: 500;
-    line-height: 100px;
-    margin-right: 15px;
 }
 
 #authArea {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
 
 #authArea button {
@@ -1849,9 +1853,8 @@ body {
     border-radius: 20px !important;
     padding: 0 20px !important;
     height: 40px !important;
-    line-height: 40px !important;
-    cursor: pointer;
-    margin-top: 30px !important;
+    margin: 0 !important;
+    line-height: normal !important;
 }
 
 #authArea button:hover {
